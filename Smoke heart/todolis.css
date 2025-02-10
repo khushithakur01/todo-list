@@ -101,3 +101,20 @@ body{
 .completed{
     text-decoration: line-through;
 }
+.task {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.task span {
+    flex: 1; /* Task name will take the remaining space */
+    margin-right: 10px;
+}
+
+.task button {
+    width: 35px;
+    height: 35px;
+    margin-left: 5px; /* Space between Edit and Delete button */
+}
